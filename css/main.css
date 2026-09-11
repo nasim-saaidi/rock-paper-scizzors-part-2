@@ -1,0 +1,72 @@
+.mainBoard {
+    border: solid black 4px;
+    margin-top: 80px;
+    width: 1000px;
+    height: 400px;
+    
+}
+
+.win {
+    color: green;
+    
+}
+
+h3  {
+    margin-bottom: 20px;
+}
+.playerbox {
+    height: 395px;
+    width: 50%;
+    border: solid white 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    text-align: center;
+}
+
+.player {
+    margin-top: 30%;
+    border: solid white 3px;
+    align-self: center;
+    width: 180px;
+    height: 150px;
+
+}
+
+.choiceBoard {
+    width: 1000px;
+}
+
+.cover {
+    width: 100px;
+    height: 200px;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    border: solid white 2px;
+    height: 160px;
+    align-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+.choice img {
+    cursor: pointer;
+}
+
+body {
+    background: #000;
+    color: white;
+}
